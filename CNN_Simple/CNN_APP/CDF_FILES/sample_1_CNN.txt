@@ -1,0 +1,24 @@
+CNN_BP Parameters: 
+-----------------------
+Length = 512
+FilterS = 73, Act. Fn = 0, Pool Type = 0
+ss = 2 
+
+CNN Configuration: 
+-----------------------
+cnn_noL = 3, mlp_noL = 3
+1 8 8 5 5 2 
+CNN Performance: 
+-----------------------
+MSE =  0.47	Class_Error =  0.78 for TRAIN set
+-1	0	1	
+0	192	3	
+1	0	189	
+
+
+MSE =  0.47	Class_Error =  0.87 for TEST  set
+-1	0	1	
+0	280	5	
+1	0	291	
+
+
