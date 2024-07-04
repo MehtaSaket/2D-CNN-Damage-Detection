@@ -1,0 +1,45 @@
+% CNN conf file to be used for CNN training
+item_no	0 % if non-zero, no. of items in the dataset..
+dir		C:\\Projects\\ECG\\CNN\\  % should be without blank spaces!!
+title		patient1283bv2 % should be without blank spaces!!
+id		201  % patient ID..
+btrain 	t % 't' to train, other to test..
+
+# CNN training parameters:
+##########################
+no_iter   200    % no of iterations
+no_runs   3      % total no. of runs per conf..
+update    1      % 0: batch, 1: online, N>1: sens. update every N iter.
+tr_rate   0.5    % train rate..
+lp        0.001  % BP eps.
+decay_lp  0.99   % lp decay factor..
+stop_ce   0.03   % target train CE to check stopping criteria.
+delta_mse 0.001  % train stop criteria over delta MSE..
+flags 1 1 1 0    % flags for MATLAB, CNN, AS and LOG files
+
+# CNN conf. parameters:
+#######################
+ch_bias 0 % 0:time, 1: Mag. spectrum, 2: Phase  3-6: Wavelet
+in_size 6 % no. of neurons
+fs  3     % filter size
+ssx  2    % sub-sampling 
+ssy  2    % sub-sampling 
+fn  0     % Act. Functions: _tanh = 0, _sigm = 1, _linear = 2, _binary = 3, _relu = 4, _lincut = 5
+ctype 0   % _CNN_BP = 0, _CNN_PSO = 1
+ptype	 1   % max. pool = 0, avg. pool=1
+cnn_nol 5 % no. of CNN layers
+mlp_nol 2 % no. of MLP layers
+width   	40  % image width if non-zero
+heigth	40  % image width if non-zero
+ 
+% cnn_nol + mlp_nol numbers excluding first and last layers
+min_non  0 60 40 40 20 10 0
+max_non  0 60 40 40 20 10 0
+% min_non 0 20 0  
+% max_non 0 20 0   
+
+
+
+
+
+

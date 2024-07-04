@@ -1,0 +1,35 @@
+item_no	0
+dir		D:\btech\2nd-Year\2ndsem\explo\CNN_Simple\CNN_Simple\CNN_APP\CDF_FILES\ 
+title		sample
+id   1
+btrain 	t
+
+# CNN training parameters:
+##########################
+no_iter   200
+no_runs   1
+update   24
+tr_rate   0.5
+lp   0.001
+decay_lp   0.99
+stop_ce   0.01
+delta_mse   0.001
+flags 	1 1 1 1
+
+# CNN conf. parameters:
+#######################
+ch_bias 0
+in_size 1
+fs   73
+ssx   2
+ssy   2
+fn   0
+ctype 0
+ptype	 0
+cnn_nol   3
+mlp_nol   3
+width   512
+height   512
+
+min_non  0 8 8 5 5 0
+max_non  0 8 8 5 5 0

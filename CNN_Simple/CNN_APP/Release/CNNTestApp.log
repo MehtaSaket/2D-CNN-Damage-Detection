@@ -1,0 +1,36 @@
+﻿Build started 10/16/2016 2:01:46 PM.
+     1>Project "C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNTestApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../ImageLib /ICNNlib /ICNNmanager /IMTL /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope- /Fo"x64\Release64\\" /Fd"x64\Release64\vc120.pdb" /Gd /TP /errorReport:prompt CNN1DTestApp.cpp
+         CNN1DTestApp.cpp
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\ActivationFunction.h(5): warning C4005: 'URAND' : macro redefinition
+                 C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\DimHash.h(9) : see previous definition of 'URAND'
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\GenLayer.h(47): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\GenLayer.h(50): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\GenLayer.h(51): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\GenLayer.h(100): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>c:\users\osama\documents\projects\cnntestapp\cnntestapp\cnnlib\MLPlayer.h(21): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\Vector1D.h(36): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>c:\users\osama\documents\projects\cnntestapp\cnntestapp\cnnlib\1DCNNlayer.h(20): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\1DCNNnet.h(37): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\1DCNNnet.h(54): warning C4180: qualifier applied to function type has no meaning; ignored
+     1>C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNlib\1DCNNnet.h(189): warning C4180: qualifier applied to function type has no meaning; ignored
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\x64\Release64\CNNTestApp.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\x64\Release64\CNNTestApp.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\x64\Release64\CNNTestApp.lib" /MACHINE:X64 x64\Release64\CNN1DTestApp.obj
+         x64\Release64\CNNTest.obj
+         x64\Release64\CNNTestApp.obj
+         x64\Release64\QBFhandler.obj
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\x64\Release64\CNNmanager.lib
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\x64\Release64\ActivationFunction.obj
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\x64\Release64\FrameResampler.obj
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\x64\Release64\Matrix2D.obj
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\x64\Release64\Memmap.obj
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\x64\Release64\mtl.obj
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\x64\Release64\Queue.obj
+         C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\MTL\x64\Release64\Vector1D.obj
+         CNNTestApp.vcxproj -> C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\x64\Release64\CNNTestApp.exe
+     1>Done Building Project "C:\Users\Osama\Documents\Projects\CNNTestApp\CNNTestApp\CNNTestApp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.24
